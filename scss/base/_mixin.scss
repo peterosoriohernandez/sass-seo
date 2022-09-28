@@ -1,0 +1,13 @@
+@mixin footer {
+    background-image: none;
+    padding: 20px 50px;
+    position: relative;
+    width: 100%;
+    background-color: #A5A5A5;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
