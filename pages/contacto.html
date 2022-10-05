@@ -18,7 +18,9 @@
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@600&family=PT+Sans&family=PT+Serif:ital,wght@1,700&family=Roboto+Condensed:wght@300&display=swap"
         rel="stylesheet">
     <link rel="icon" href="../img/logo-pestana3.png">
-    <title>Tequetok.ar - Contacto</title>
+     <meta name="description" content="Empresa destinada a la fabricación y venta de snacks fritos y congelados de tequeños venezolanos">
+     <meta name="keywords" content="Tequeños, Empanadas, Pastelitos, Gaseosas, Dulces, Fritos, Congelados, Promos, Queso, Jamón, Bebidas, Carne, Pollo, Snacks">
+    <title>Tequetok.ar - Contacto - Tequeños Artesanales</title>
 </head>
 
 <body>
@@ -99,7 +101,42 @@
             </ul>
         </nav>
 
-        <h1>Acá va un formulario</h1>
+        <form>
+            <div class="form__wrap">
+                <div class="contacto__form">
+                    <h2>CONTACTO</h2>
+                    <h4>Completa el formulario con tus datos</h4>
+                </div>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" name="nombre" class="form-control form__propio" id="nombre" title="Por favor, ingrese su nombre." required>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="apellido" class="form-label">Apellidos</label>
+                    <input type="text" name="apellido" class="form-control form__propio" id="apellido" title="Por favor, ingrese su Apellido.">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="telefono" class="form-label">Teléfono</label>
+                    <input type="number" class="form-control form__propio" name="telefono" id="telefono" title="Por favor, ingrese su numero telefónico." required>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control form__propio" name="email" id="email" title="Por favor, ingrese su dirección de email.">
+                  </div>
+
+
+                  <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <input type="text" class="form-control form__propio" name="mensaje" id="mensaje">
+                  </div>
+
+                  <button type="reset" class="btn btn-primary button__bg">Borrar</button>
+                  <button type="submit" class="btn btn-primary button__bg">Enviar</button>
+            </div>
+          </form>
 
       
             <!--FOOTER-->
